@@ -252,27 +252,4 @@
 
   <footer>Professional Registration Form</footer>
 
-  <script>
-    // Populate DOB
-    const daySel=document.getElementById("day");
-    const monthSel=document.getElementById("month");
-    const yearSel=document.getElementById("year");
-
-    daySel.innerHTML="<option>Day</option>";
-    for(let i=1;i<=31;i++){ daySel.innerHTML+=`<option>${i}</option>`; }
-
-    const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-    monthSel.innerHTML="<option>Month</option>";
-    months.forEach(m=> monthSel.innerHTML+=`<option>${m}</option>`);
-
-    yearSel.innerHTML="<option>Year</option>";
-    for(let y=1980;y<=2025;y++){ yearSel.innerHTML+=`<option>${y}</option>`; }
-
-    // Populate Countries
-    const countries=["Select Country","India","United States","United Kingdom","Canada","Australia"];
-    const countrySel=document.getElementById("country");
-    countries.forEach(c=> countrySel.innerHTML+=`<option>${c}</option>`);
-  </script>
-
-</body>
-</html>
+  
